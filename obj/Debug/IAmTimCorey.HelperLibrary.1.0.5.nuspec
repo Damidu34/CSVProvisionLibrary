@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>IAmTimCorey.HelperLibrary</id>
+    <version>1.0.5</version>
+    <title>newlibrary</title>
+    <authors>HelperLibrary</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <description>hiii new lib</description>
+    <releaseNotes>original one</releaseNotes>
+    <copyright>2023</copyright>
+    <tags>IAmTimCorey</tags>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Calculation" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="CsvHelper" version="30.0.1" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Damidu Rathnayaka\source\repos\NugetDemo\HelperLibrary\bin\Debug\net6.0\HelperLibrary.dll" target="lib\net6.0\HelperLibrary.dll" />
+    <file src="C:\Users\Damidu Rathnayaka\source\repos\NugetDemo\HelperLibrary\ReadMe1.txt" target="\ReadMe1.txt" />
+  </files>
+</package>
